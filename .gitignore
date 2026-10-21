@@ -46,3 +46,8 @@ CLAUDE.md
 # Local screenshots from manual QA (admin dashboard, proposal previews)
 /admin-*.png
 /proposal-*.png
+.env*
+
+# Hook Claude Code de vérification du build
+.next-verif/
+.claude/.verif-build-etat

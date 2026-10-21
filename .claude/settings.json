@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/verif-build.sh",
+            "timeout": 300,
+            "statusMessage": "Vérification du build…"
+          }
+        ]
+      }
+    ]
+  }
+}
